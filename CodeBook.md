@@ -32,7 +32,7 @@ walking, standing, sitting,etc. The following is a list of the provided data whi
 
 - 'README.txt'
 
-Please refer to the original 'README' textfile to get further details on each item listed above.
+Please refer to the original 'README' textfile from the UCI dataset folder to get further details on each item listed above.
 
 
 ### Project source code
@@ -42,7 +42,7 @@ The code for this project can be found in 'run_analysis.R'
 ### Task 1 - Merge given training and test sets into ONE dataset.
 For this task, the X_train.txt, y_train.txt, X_test.txt, y_test.txt, subject_train.txt and subject_test.txt files
 were all used. The data inside these text files were combined. The output variable to reflect this merger is the
-'combined_training_test' dataframe and can be within the 'run_analysis.R' code.
+'combined_training_test' dataframe and can be found within the 'run_analysis.R' code.
 
 ### Task 2 - Extract mean and standard deviations of the measurements.
 In this task, the mean and standard deviation columns of the measurement variables were extracted from the 
