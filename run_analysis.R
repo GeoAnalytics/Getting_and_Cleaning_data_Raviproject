@@ -12,9 +12,9 @@ graphics.off()
 
 
 # -----Example to run this code -----------#:
-# setwd("C:/Users/ravi/Getting_and_Cleaning_Data_course_project")
+# setwd("C:/Users/ravi/Getting_and_Cleaning_data_Raviproject")
 # source("run_analysis.R") #load source code
-# Path_to_data_folder <- "C:/Users/ravi/Getting_and_Cleaning_Data_course_project"
+# Path_to_data_folder <- "C:/Users/ravi/Getting_and_Cleaning_data_Raviproject"
 # Do_Tidy_Data(Path_to_data_folder)
 #------------------------------------------#
 
@@ -109,8 +109,8 @@ Do_Tidy_Data <- function(Path_to_data_folder) {
         
         independent_tidy_dataset <- cbind(switch_first_2_cols,compute_av_each_activ_subj[,-(1:2)])
         
-        # write to csv file to create a second, independent tidy dataset.
-        write.csv( independent_tidy_dataset, file="independent_tidy_dataset.csv" )
+        # write to txt file to create a second, independent tidy dataset.
+        write.table( independent_tidy_dataset, file="independent_tidy_dataset.txt", row.name=FALSE)
         
         
 }

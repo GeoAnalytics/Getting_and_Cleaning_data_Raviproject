@@ -62,7 +62,7 @@ the last variable "fBodyBodyGyroJerkMag-std()" has a typographical error which s
 to occur in other variables as well, so I cleaned the dataset by fixing this typo.
 
 ### Task 5 - Create a second, independent tidy data set with the average of each variable for each activity and each subject.
-Finally, I created a second dataset in the form of a .csv file named "independent_tidy_dataset.csv" which can be found on this 
+Finally, I created a second dataset in the form of a .txt file named "independent_tidy_dataset.txt" which can be found on this 
 Github repo. This dataset makes use of the "Activity_label" and "Subject_ID" variables. For these each of these 2 variables, 
 I computed the average of their respective measurement variables.
 

@@ -4,7 +4,7 @@ This repo contains the submitted files for the 'Getting and Cleaning Data' proje
 README file are provided. Specifically, the following are provided in this repo: 
 
 * the source code script 'run_analysis.R', 
-* the generated independent tidy dataset for task 5 in the assignment called 'independent_tidy_dataset.csv', 
+* the generated independent tidy dataset for task 5 in the assignment called 'independent_tidy_dataset.txt', 
 * a code book named 'CodeBook.md', which describes the variables, data and work performed to clean the data, as well as, 
 * this 'README.md' file.
 
