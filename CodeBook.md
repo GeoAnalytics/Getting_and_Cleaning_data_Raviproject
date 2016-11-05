@@ -66,10 +66,80 @@ Finally, I created a second dataset in the form of a .txt file named "independen
 Github repo. This dataset makes use of the "Activity_label" and "Subject_ID" variables. For these each of these 2 variables, 
 I computed the average of their respective measurement variables.
 
+### The variable measurements which were updated
 
+* "time-domain: BodyAcc-mean()-X"  
+* "time-domain: BodyAcc-mean()-Y"      
+* "time-domain: BodyAcc-mean()-Z"      
+* "time-domain: BodyAcc-std()-X"       
+* "time-domain: BodyAcc-std()-Y"        
+* "time-domain: BodyAcc-std()-Z"       
+* "time-domain: GravityAcc-mean()-X"    
+* "time-domain: GravityAcc-mean()-Y"   
+* "time-domain: GravityAcc-mean()-Z"    
+* "time-domain: GravityAcc-std()-X"    
+* "time-domain: GravityAcc-std()-Y"    
+* "time-domain: GravityAcc-std()-Z"    
+* "time-domain: BodyAccJerk-mean()-X"   
+* "time-domain: BodyAccJerk-mean()-Y"  
+* "time-domain: BodyAccJerk-mean()-Z"  
+* "time-domain: BodyAccJerk-std()-X"   
+* "time-domain: BodyAccJerk-std()-Y"   
+* "time-domain: BodyAccJerk-std()-Z"   
+* "time-domain: BodyGyro-mean()-X"     
+* "time-domain: BodyGyro-mean()-Y"     
+* "time-domain: BodyGyro-mean()-Z"      
+* "time-domain: BodyGyro-std()-X"      
+* "time-domain: BodyGyro-std()-Y"       
+* "time-domain: BodyGyro-std()-Z"      
+* "time-domain: BodyGyroJerk-mean()-X"  
+* "time-domain: BodyGyroJerk-mean()-Y" 
+* "time-domain: BodyGyroJerk-mean()-Z"  
+* "time-domain: BodyGyroJerk-std()-X"  
+* "time-domain: BodyGyroJerk-std()-Y"   
+* "time-domain: BodyGyroJerk-std()-Z"  
+* "time-domain: BodyAccMag-mean()"      
+* "time-domain: BodyAccMag-std()"      
+* "time-domain: GravityAccMag-mean()"   
+* "time-domain: GravityAccMag-std()"   
+* "time-domain: BodyAccJerkMag-mean()"  
+* "time-domain: BodyAccJerkMag-std()"  
+* "time-domain: BodyGyroMag-mean()"     
+* "time-domain: BodyGyroMag-std()"     
+* "time-domain: BodyGyroJerkMag-mean()" 
+* "time-domain: BodyGyroJerkMag-std()" 
+* "freq-domain: BodyAcc-mean()-X"       
+* "freq-domain: BodyAcc-mean()-Y"      
+* "freq-domain: BodyAcc-mean()-Z"       
+* "freq-domain: BodyAcc-std()-X"       
+* "freq-domain: BodyAcc-std()-Y"        
+* "freq-domain: BodyAcc-std()-Z"       
+* "freq-domain: BodyAccJerk-mean()-X"   
+* "freq-domain: BodyAccJerk-mean()-Y"  
+* "freq-domain: BodyAccJerk-mean()-Z"   
+* "freq-domain: BodyAccJerk-std()-X"   
+* "freq-domain: BodyAccJerk-std()-Y"    
+* "freq-domain: BodyAccJerk-std()-Z"   
+* "freq-domain: BodyGyro-mean()-X"      
+* "freq-domain: BodyGyro-mean()-Y"     
+* "freq-domain: BodyGyro-mean()-Z"      
+* "freq-domain: BodyGyro-std()-X"      
+* "freq-domain: BodyGyro-std()-Y"       
+* "freq-domain: BodyGyro-std()-Z"      
+* "freq-domain: BodyAccMag-mean()"      
+* "freq-domain: BodyAccMag-std()"      
+* "freq-domain: BodyAccJerkMag-mean()"  
+* "freq-domain: BodyAccJerkMag-std()"  
+* "freq-domain: BodyGyroMag-mean()"     
+* "freq-domain: BodyGyroMag-std()"     
+* "freq-domain: BodyGyroJerkMag-mean()" 
+* "freq-domain: BodyGyroJerkMag-std()" 
 
+### The various 6 activities
 
-
-
-
-
+* WALKING
+* SITTING
+* STANDING
+* LAYING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
